@@ -24,7 +24,7 @@ pip install openai rich fastmcp
 * `fastmcp`: Python implementation of MCP.
 
 ### 2️⃣ API Configuration
-Edit the `agent.py` file and fill in your configuration:
+Edit the `agent_en.py` file and fill in your configuration:
 
 ```python
 API_CONFIG = {

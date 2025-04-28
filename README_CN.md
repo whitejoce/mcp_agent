@@ -5,7 +5,7 @@
 
 它基于 [DIY-your-AI-agent](https://github.com/whitejoce/DIY-your-AI-agent) 项目中 MCP Host 端 Agent 的实现方式，旨在帮助你快速理解和上手 MCP 应用开发。
 
-<img src="https://github.com/whitejoce/mcp_agent/blob/main/img/example.png" alt="MCP Agent Demo Example">
+<img src="img/example_cn.png" alt="MCP Agent Demo Example">
 
 ---
 

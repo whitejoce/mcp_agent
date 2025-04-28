@@ -66,23 +66,19 @@ Now, the Agent will connect to the MCP Server and interact with the LLM through 
 
 Want to make your Agent smarter and more powerful? Consider these approaches:
 
-1. **Direct AI Conversations** 🤖
+1. *Ask the Friendly AI* 🤖
    * Talk directly with the model in the terminal to iterate on your ideas.
    * Try asking: "How can I give my Agent stronger decision-making abilities?" or "How can I optimize my terminal assistant experience?"
 
 2. **Explore Model Context Protocol (MCP)** 🏗️
-   * MCP is an open protocol for seamless integration between LLMs and external data sources/tools.
-   * It helps models access richer context information to generate more accurate responses.
-   * Study MCP's core concepts like `Resources`, `Tools`, and `Prompts` to enhance your Agent's capabilities.
-   * **Resources:**
+   
+    MCP is an open protocol for seamless integration between LLMs and external data sources/tools.
+    It helps models access richer context information to generate more accurate responses.
+    Study MCP's core concepts like `Resources`, `Tools`, and `Prompts` to enhance your Agent's capabilities.
+   
+    **Resources:**
       * [MCP Official Introduction](https://modelcontextprotocol.io/introduction)
       * [FastMCP Documentation](https://gofastmcp.com/getting-started/welcome)
-
-3. **Integrate More Tools** 🛠️
-   * Follow MCP specifications to add capabilities like external API calls, local script execution, database access, etc.
-
-4. **Leverage Resources** 📚
-   * Provide file contents, web information, or other dynamic data as context to the LLM through MCP.
 
 ---
 

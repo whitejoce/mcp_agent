@@ -25,7 +25,7 @@ pip install openai rich fastmcp
 ```
 * `openai`: For interacting with LLM APIs.
 * `rich`: For displaying rich text in the terminal.
-* `fastmcp`: Python implementation of MCP.
+* `fastmcp`: Python implementation of MCP SDK.
 
 ### 2️⃣ API Configuration
 Edit the `agent_en.py` file and fill in your configuration:

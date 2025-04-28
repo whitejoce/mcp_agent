@@ -1,8 +1,12 @@
 # MCP Agent Demo: Your First MCP Agent
 
-[中文文档](https://github.com/whitejoce/mcp_agent/blob/main/README_CN.md)
+<p align="center">
+   <a href="./README_CN.md">中文文档</a> |
+   <a href="https://deepwiki.com/whitejoce/mcp_agent">DeepWiki for this Repository</a>
+</p>
 
 ## 🔥 Project Overview
+  
 This project is a simple Agent example based on [Model Context Protocol (MCP)](https://modelcontextprotocol.io/introduction) to demonstrate the basic functionality of an MCP Host.
 
 It follows the implementation approach of the MCP Host Agent from the [DIY-your-AI-agent](https://github.com/whitejoce/DIY-your-AI-agent) project, aimed at helping you quickly understand and get started with MCP application development.

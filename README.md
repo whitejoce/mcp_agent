@@ -38,7 +38,7 @@ API_CONFIG = {
 
 ### 3️⃣ Run MCP Server
 This demo includes a simple MCP Server implementation for demonstration. Run in your terminal:
-> Communication method: Server-Sent Events (SSE)
+> HTTP with SSE transport
 
 ```bash
 $ python ./mcp_demo/server.py

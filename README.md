@@ -7,7 +7,7 @@ This project is a simple Agent example based on [Model Context Protocol (MCP)](h
 
 It follows the implementation approach of the MCP Host Agent from the [DIY-your-AI-agent](https://github.com/whitejoce/DIY-your-AI-agent) project, aimed at helping you quickly understand and get started with MCP application development.
 
-<img src="https://github.com/whitejoce/mcp_agent/blob/main/img/example.png" alt="MCP Agent Demo Example">
+<img src="img/example.png" alt="MCP Agent Demo Example">
 
 ---
 

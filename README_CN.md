@@ -66,21 +66,19 @@ $ python agent.py
 
 1.  **直接与 AI 对话** 🤖
    *   在终端与大模型直接交流，迭代你的想法。
-   *   尝试提问：“如何让 Agent 具备更强的自主决策能力？”或“怎样优化我的终端助手交互体验？”
+       * 尝试提问：“如何让 Agent 具备更强的自主决策能力？”或“怎样优化我的终端助手交互体验？”
 
 2.  **深入探索 Model Context Protocol (MCP)** 🏗️
-   MCP 是一个开放协议，旨在实现大型语言模型 (LLM) 与外部数据源和工具的无缝集成。
+   
+   * MCP 是一个开放协议，旨在实现大型语言模型 (LLM) 与外部数据源和工具的无缝集成。
    通过标准化交互方式，MCP 帮助模型获取更丰富的上下文信息，生成更准确、相关的响应。
    研究 MCP 定义的 `Resources`、`Tools`、`Prompts` 等核心概念，充分利用它们来增强 Agent 的能力。
    **推荐资源:**
     *   [MCP 官方介绍](https://modelcontextprotocol.io/introduction)
     *   [FastMCP 文档](https://gofastmcp.com/getting-started/welcome)
 
-3.  **集成更多工具 (Tools)** 🛠️
+3.  **集成更多 (Resources、Tools、Prompts)** 🛠️
    *   根据 MCP 规范，为 Agent 添加调用外部 API、执行本地脚本、访问数据库等能力。
-
-4.  **利用资源 (Resources)** 📚
-   *   通过 MCP 向 LLM 提供文件内容、网页信息或其他动态数据作为上下文。
 
 ---
 

@@ -80,7 +80,7 @@ Want to make your Agent smarter and more powerful? Consider these approaches:
     It helps models access richer context information to generate more accurate responses.
     Study MCP's core concepts like `Resources`, `Tools`, and `Prompts` to enhance your Agent's capabilities.
    
-    **Resources:**
+    **See also:**
       * [MCP Documentation](https://modelcontextprotocol.io/introduction)
       * [FastMCP Documentation](https://gofastmcp.com/getting-started/welcome)
 

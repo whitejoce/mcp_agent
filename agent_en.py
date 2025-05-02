@@ -98,27 +98,6 @@ def get_chat_response(client, payload):
     #print("".join(reply_chunk))
     return "".join(reply_chunk), "".join(reasoning_chunk)
 
-
-def execute_command(cmd):
-    # Execute command and preserve color output
-    try:
-        process = subprocess.Popen(
-            cmd,
-            shell=True,
-            stdout=subprocess.PIPE,
-            stderr=subprocess.PIPE,
-            universal_newlines=True,
-        )
-        stdout, stderr = process.communicate()
-
-        if process.returncode == 0:
-            return True, stdout
-        else:
-            return False, stderr
-    except Exception as e:
-        return False, str(e)
-
-
 async def get_tools_list():
     async with Client(SSETransport(API_CONFIG["MCP_Server"])) as client:
         tools = await client.list_tools()

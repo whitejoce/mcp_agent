@@ -113,38 +113,6 @@ def get_chat_response(client, payload):
     # 返回拼接好的回复内容和思考过程内容
     return "".join(reply_chunk), "".join(reasoning_chunk)
 
-
-def execute_command(cmd):
-    """
-    在本地执行shell命令。 (注意：此函数当前未在main逻辑中使用)
-
-    Args:
-        cmd (str): 要执行的shell命令。
-
-    Returns:
-        tuple: 包含执行状态(bool)和输出/错误信息(str)的元组。
-    """
-    try:
-        # 使用subprocess执行命令
-        process = subprocess.Popen(
-            cmd,
-            shell=True,
-            stdout=subprocess.PIPE,
-            stderr=subprocess.PIPE,
-            universal_newlines=True, # 将输出解码为文本
-        )
-        stdout, stderr = process.communicate() # 获取标准输出和标准错误
-
-        # 根据返回码判断执行是否成功
-        if process.returncode == 0:
-            return True, stdout
-        else:
-            return False, stderr
-    except Exception as e:
-        # 捕获执行过程中的异常
-        return False, str(e)
-
-
 async def get_tools_list():
     """
     异步连接MCP服务器并获取可用工具列表。

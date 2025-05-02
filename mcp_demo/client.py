@@ -1,7 +1,7 @@
-#!/usr/bin/env python3
-# -*- coding=utf-8 -*-
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+#Coder:Whitejoce
 
-#from 
 from fastmcp import Client
 from fastmcp.client.transports import (
     SSETransport
